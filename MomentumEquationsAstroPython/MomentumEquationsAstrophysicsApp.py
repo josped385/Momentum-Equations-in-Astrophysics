@@ -2,9 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
-from nidaqmx import Task
-from nidaqmx.constants import TerminalConfiguration
-from nidaqmx.system import System
 import tkinter as tk
 from tkinter import *
 from tkinter import messagebox, filedialog, ttk, simpledialog
