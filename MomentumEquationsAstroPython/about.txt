@@ -1,0 +1,59 @@
+Supported Python Versions
+
+This application has been tested and is compatible with the following versions of Python:
+
+- Python 3.12.5
+- Python 3.13.0
+- Python 3.14.0
+
+It may also work on newer releases, but full compatibility is not guaranteed. For optimal performance, ensure that your Python installation is up to date.
+
+System Requirements
+
+Operating Systems:
+Windows, macOS, Linux (as supported by Python).
+
+Required Libraries:
+
+- pandas
+- scipy
+- matplotlib
+- numpy
+- PIL (Pillow)
+- csv (standard library)
+- tkinter (standard library)
+- threading (standard library)
+
+Installation Instructions
+
+- Download the Application Files:
+Obtain the complete package of the application.
+
+- (Optional) Create a Virtual Environment:
+It is recommended to create a virtual environment for the application.
+----------
+python -m venv env
+source env/bin/activate  # On Linux/macOS
+env\Scripts\activate     # On Windows
+----------
+
+- Install Required Libraries:
+Use pip to install the necessary libraries:
+----------
+pip install --upgrade nidaqmx pandas scipy matplotlib numpy pillow
+----------
+(Note: csv, tkinter, threading and subprocess are included in the Python standard library.)
+
+- Launch the Application:
+Run the main script (e.g., MomentumEquationsAstrophysicsApp.py) from your command line or IDE:
+----------
+python MomentumEquationsAstrophysicsApp.py
+----------
+
+About
+
+This app has been developed by a student of the University of Seville, as a fun project. After studying Astrophysics, I needed to learn how to create GUIs for bigger and more complex projects (CurveTracer, in other repository here in GitHub), so I decided to create this "more simple" app in order to practice.
+
+There was an exercise involving momentum equations in Astrophysics, in which we needed to simplify equations in order to make them more simple for pencil and paper solutions. I was curious to see by how much did the solution differ from the "exact" solution (involving more parameters), so I decided to program an app to do it. The MATLAB App is slightly more abandoned, but it should work just fine.
+
+For more information about the functioning and limitations of this app visit "Help", in the menu bar.
